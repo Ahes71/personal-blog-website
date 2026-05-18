@@ -16,8 +16,6 @@ This project focuses on clean design, smooth user experience, and interactive UI
 * CSS3
 * JavaScript (Vanilla JS)
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-green?style=for-the-badge)](https://ahes71.github.io/personal-blog-website/)
-
 ## 📌 Project Purpose
 
 This project was built to improve my frontend development skills and practice creating modern, user-friendly web interfaces.
@@ -29,5 +27,5 @@ This project was built to improve my frontend development skills and practice cr
 * Backend integration
 
 ---
+[![Live Demo](https://img.shields.io/badge/Live-Demo-green?style=for-the-badge)](https://ahes71.github.io/personal-blog-website/)
 
-💡 Feel free to fork, explore, and give feedback!
