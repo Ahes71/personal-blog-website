@@ -12,7 +12,6 @@ Bu proje, modern bir blog sitesi tasarımıdır.
 - HTML
 - CSS
 - JavaScript
-
-## 📸 Ekran Görüntüsü
-
+  
 ## 🔗 Canlı Demo
+https://ahes71.github.io/personal-blog-website/
