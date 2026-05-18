@@ -14,4 +14,4 @@ Bu proje, modern bir blog sitesi tasarımıdır.
 - JavaScript
   
 ## 🔗 Canlı Demo
-https://ahes71.github.io/personal-blog-website/
+[![Live Demo](https://img.shields.io/badge/Live-Demo-green?style=for-the-badge)](https://kullaniciadi.github.io/proje-adi)
