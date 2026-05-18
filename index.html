@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ahmet Esat Uzunoğlu — Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- nav alani -->
+<nav id="nav">
+  <div class="nav-logo">A.E.U.</div>
+  <ul class="nav-links">
+    <li><a href="#work">Projects</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#interests">Interests</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!--Main alani--!> 
+<section class="hero" id="home">
+<div class="hero-number">
+    <img src="mainphoto.png" style="
+        opacity:0;
+        animation: fadeIn 2s ease-in forwards;
+    ">
+</div>
+  <p class="hero-tag">Computer Engineering Student · Zonguldak Bulent Ecevit University</p>
+  <h1 class="hero-title">Hi, I'm<br>Ahmet Esat<br><em>Uzunoğlu.</em></h1>
+  <p class="hero-sub">2nd year Computer Engineering student who learns best by doing. I turn what I study into practical projects — always open to new technologies and real-world experience.</p>
+  <div class="hero-cta">
+    <a href="#work" class="btn-primary">See my projects</a>
+    <a href="#contact" class="btn-outline">Get in touch</a>
+  </div>
+  <div class="scroll-hint">
+    <span class="scroll-line"></span>
+    Scroll down
+  </div>
+</section>
+
+<!-- project kismi -->
+<section class="work" id="work">
+  <div class="section-header reveal">
+    <div>
+      <p class="section-tag">What I've Built</p>
+      <h2 class="section-title">Projects</h2>
+    </div>
+    <a href="https://github.com/Ahes71" class="view-all" target="_blank">GitHub →</a>
+  </div>
+  <div class="projects-grid reveal">
+    <div class="project-card">
+      <p class="project-num">01 — HTML / CSS</p>
+      <h3 class="project-title">Personal Portfolio</h3>
+      <p class="project-desc">This very site — built to showcase my learning journey, practice front-end basics, and present my projects professionally.</p>
+      <div class="project-tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span></div>
+    </div>
+	<div class="project-card">
+      <p class="project-num">02 - Loading...</p>
+      <h3 class="project-title">Loading...</h3>
+      <p class="project-desc"></p>
+    </div>
+  </div>
+</section>
+
+<!-- about kismi -->
+<section class="about" id="about">
+  <div class="about-left reveal">
+    <div class="about-image">
+      <div class="about-image-inner">
+        <span>AEU</span>
+        <span class="about-image-label">Ahmet Esat Uzunoğlu</span>
+      </div>
+    </div>
+  </div>
+  <div class="about-right">
+    <div class="reveal">
+      <p class="section-tag">About Me</p>
+      <h2 class="section-title">Building a <em style="font-family:'Playfair Display',serif;font-style:italic;color:var(--accent)">foundation.</em></h2>
+      <p class="about-text">I'm a 2nd year Computer Engineering student at Zonguldak Bülent Ecevit University. I have working knowledge of HTML, C, C++, and C# — and I'm always expanding that list.</p>
+      <p class="about-text">I learn best by doing. Every concept I study, I try to turn into a small, practical project. My goal is to build a strong foundation in software development through hands-on practice, one project at a time.</p>
+      <p class="about-text">I'm interested in exploring different areas of software — from systems programming to web development — and always open to new technologies and real-world experience.</p>
+      <div class="skills-grid">
+        <span class="skill-pill">HTML</span>
+        <span class="skill-pill">CSS</span>
+        <span class="skill-pill">C</span>
+        <span class="skill-pill">C++</span>
+        <span class="skill-pill">C#</span>
+        <span class="skill-pill">Problem Solving</span>
+        <span class="skill-pill">Git</span>
+      </div>
+    </div>
+    <div class="stats reveal reveal-delay-2">
+      <div class="stat"><div class="stat-num">2nd</div><div class="stat-label">Year of Study</div></div>
+      <div class="stat"><div class="stat-num">4+</div><div class="stat-label">Languages Known</div></div>
+      <div class="stat"><div class="stat-num">Bulent Ecevit Univetsity</div><div class="stat-label">Zonguldak</div></div>
+      <div class="stat"><div class="stat-num">∞</div><div class="stat-label">Eagerness to Learn</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- skills kismi -->
+<section class="skills-section" id="skills">
+  <div class="section-header reveal">
+    <div>
+      <p class="section-tag">What I Know</p>
+      <h2 class="section-title">Skills</h2>
+    </div>
+  </div>
+  <div class="skills-blocks reveal">
+    <div class="skill-block">
+      <div class="skill-block-icon">C</div>
+      <h3 class="skill-block-title">Systems Programming</h3>
+      <p class="skill-block-desc">Low-level programming with a focus on memory management, pointers, and performance.</p>
+      <div class="skill-items">
+        <div class="skill-item-row"><span class="skill-dot"></span><span class="skill-item-name">C — Core language</span></div>
+        <div class="skill-item-row"><span class="skill-dot"></span><span class="skill-item-name">C++ — OOP & STL</span></div>
+        <div class="skill-item-row"><span class="skill-dot"></span><span class="skill-item-name">Memory management</span></div>
+        <div class="skill-item-row"><span class="skill-dot"></span><span class="skill-item-name">Data structures</span></div>
+      </div>
+    </div>
+    <div class="skill-block">
+      <div class="skill-block-icon">C#</div>
+      <h3 class="skill-block-title">Application Dev</h3>
+      <p class="skill-block-desc">Building desktop and console applications using C# and the .NET framework.</p>
+      <div class="skill-items">
+        <div class="skill-item-row"><span class="skill-dot"></span><span class="skill-item-name">C# — .NET basics</span></div>
+        <div class="skill-item-row"><span class="skill-dot"></span><span class="skill-item-name">OOP principles</span></div>
+        <div class="skill-item-row"><span class="skill-dot"></span><span class="skill-item-name">Console & desktop apps</span></div>
+        <div class="skill-item-row"><span class="skill-dot"></span><span class="skill-item-name">File I/O & data handling</span></div>
+      </div>
+    </div>
+    <div class="skill-block">
+      <div class="skill-block-icon">&lt;/&gt;</div>
+      <h3 class="skill-block-title">Web & Tools</h3>
+      <p class="skill-block-desc">Frontend basics and developer tooling to build and ship projects effectively.</p>
+      <div class="skill-items">
+        <div class="skill-item-row"><span class="skill-dot"></span><span class="skill-item-name">HTML & CSS</span></div>
+        <div class="skill-item-row"><span class="skill-dot"></span><span class="skill-item-name">Basic JavaScript</span></div>
+        <div class="skill-item-row"><span class="skill-dot"></span><span class="skill-item-name">Git & GitHub</span></div>
+        <div class="skill-item-row"><span class="skill-dot"></span><span class="skill-item-name">VS Code</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- interest -->
+<section class="services" id="interests">
+  <div class="section-header reveal">
+    <div>
+      <p class="section-tag">What Drives Me</p>
+      <h2 class="section-title">Interests</h2>
+    </div>
+  </div>
+  <div class="services-list reveal">
+    <div class="service-item">
+      <span class="service-num">01</span>
+      <span class="service-name">Software Development</span>
+      <span class="service-arrow">→</span>
+    </div>
+    <div class="service-item">
+      <span class="service-num">02</span>
+      <span class="service-name">Problem Solving & Algorithms</span>
+      <span class="service-arrow">→</span>
+    </div>
+    <div class="service-item">
+      <span class="service-num">03</span>
+      <span class="service-name">Systems Programming</span>
+      <span class="service-arrow">→</span>
+    </div>
+    <div class="service-item">
+      <span class="service-num">04</span>
+      <span class="service-name">Web Technologies</span>
+      <span class="service-arrow">→</span>
+    </div>
+    <div class="service-item">
+      <span class="service-num">05</span>
+      <span class="service-name">Exploring New Languages & Frameworks</span>
+      <span class="service-arrow">→</span>
+    </div>
+  </div>
+</section>
+
+<!-- Contact-->
+<section class="contact" id="contact">
+  <p class="section-tag reveal">Get In Touch</p>
+  <h2 class="contact-title reveal">Let's build something<br><em>together.</em></h2>
+  <p class="contact-sub reveal">Whether it's a collaboration, an opportunity, or just a hello — I'm always happy to hear from you.</p>
+
+  <div class="contact-cards reveal">
+    <div class="contact-card">
+      <p class="contact-card-label">Email</p>
+      <p class="contact-card-value">ahmetesatuzunoglu@mail.com</p>
+    </div>
+    <div class="contact-card">
+      <p class="contact-card-label">Location</p>
+      <p class="contact-card-value">Zonguldak, Turkey</p>
+    </div>
+    <div class="contact-card">
+      <p class="contact-card-label">Status</p>
+      <p class="contact-card-value" style="color:var(--accent)">● Open to opportunities</p>
+    </div>
+  </div>
+
+  <a href="mailto:ahmetesatuzunoglu@mail" class="contact-email reveal">ahmetesatuzunoglu@mail.com</a>
+
+  <div class="social-links reveal">
+    <a href="https://github.com/Ahes71" target="_blank" class="social-link">GitHub</a>
+    <a href="https://linkedin.com/ahmet-esat-uzunoğlu" target="_blank" class="social-link">LinkedIn</a>
+  </div>
+</section>
+
+<!-- footer kismi-->
+<footer>
+  <p class="footer-copy">© 2024 Ahmet Esat Uzunoğlu. All rights reserved.</p>
+  <a href="#home" class="footer-back">↑ Back to top</a>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
